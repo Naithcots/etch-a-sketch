@@ -1,0 +1,18 @@
+.container {
+    text-align: center;
+}
+
+.sketch-container {
+    width: calc(16*22px);
+    height: calc(16*22px);
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+    margin: 0 auto;
+}
+
+.sketch-container .box {
+  width: 20px;
+  height: 20px;
+  border: 1px solid black;
+}
